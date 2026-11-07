@@ -8,12 +8,16 @@
 <body>
     <h1 style="text-align: center;">ShowBuddy</h1>
     <hr>
-    <form>
+    <form method="post">
         <label for="email">E-mail: </label><input type="email">
         <br>
         <label for="heslo">Heslo: </label><input type="password">
         <br>
         <button type="submit"></button>
     </form>
+
+    <?php
+        echo 'My first PHP script!';
+    ?>
 </body>
 </html>
